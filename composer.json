@@ -1,0 +1,8 @@
+{
+	"name":"pakage_demo",
+	"autoload":{
+			"classmap":[
+				"App/Library"
+			]
+	}
+}
