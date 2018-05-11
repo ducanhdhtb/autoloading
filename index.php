@@ -1,9 +1,10 @@
 <?php
-require "vendor/autoload.php";
-use App\Library as MyApp;
+require("autoload.php");
 
-$a = new Myapp\Demo;
-$a->test();
-echo "<hr>";
-$b = new Myapp\signin;
-$b->sayhello();
+$user = new models_user();
+$phone = new models_phone();
+$phone->hi();
+
+
+
+?>

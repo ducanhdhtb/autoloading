@@ -1,5 +1,5 @@
 <?php
-class app_library_demo{
+class app_demo{
 	public function test(){
 		echo "Demo class call - test checked";
 	}
